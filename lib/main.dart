@@ -31,14 +31,13 @@ class MyApp extends StatelessWidget {
                     color: Colors.black,
                   ),
                   Positioned(
-                    right: -2,
+                    right: 0,
                     top: -4,
                     child: Container(
                       decoration: BoxDecoration(
-                        color: Colors.red,
-                        shape: BoxShape.circle,
-                        border: Border.all(color: Colors.red, width: 2)
-                      ),
+                          color: Colors.red,
+                          shape: BoxShape.circle,
+                          border: Border.all(color: Colors.red, width: 2)),
                       child: Text(
                         "1",
                       ),
